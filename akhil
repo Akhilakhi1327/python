@@ -1,0 +1,9 @@
+# even len and odd len stringss
+
+str =" i am akhil"
+b = str.split()
+for i in range(0,len(b)):
+    if len (b[i])%2==0:
+        print("the even length string")
+    else:
+         print("odd length of string")

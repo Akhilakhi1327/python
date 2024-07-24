@@ -21,6 +21,19 @@ for i in range (0,len(str)):
 print(c+d)
 
 
+#Python program to capitalize the first and last character of each word in a string
+
+s = "mkhie"
+b = s[0].upper() + s[1:-1] + s[-1].upper()
+print(b)
 
 
+# Python | Count the Number of matching characters in a pair of string
 
+str1="akhil"
+str2="murali"
+ans=""
+for i in range(len(str2)):
+    if str2[i] in str1:
+        ans+=str2[i]
+print(ans)

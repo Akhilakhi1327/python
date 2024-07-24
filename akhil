@@ -7,3 +7,20 @@ for i in range(0,len(b)):
         print("the even length string")
     else:
          print("odd length of string")
+
+#Python – Uppercase Half String
+
+str ="akhil teja"
+c=" "
+d=" "
+for i in range (0,len(str)):
+    if i <= (len (str))/2:
+        c = c+str[i].upper()
+    else:
+        d =d+str[i].lower()
+print(c+d)
+
+
+
+
+

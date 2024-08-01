@@ -37,3 +37,63 @@ for i in range(len(str2)):
     if str2[i] in str1:
         ans+=str2[i]
 print(ans)
+
+
+
+Count occurrences of an element in a lis
+
+l = [1, 2, 3, 4, 5, 22, 3, 2, 3, 2, 22, 22, 22]
+count = 0
+i = 22
+
+for element in l:
+    if element == i:
+        count += 1
+
+print(f"The element {i} occurs {count} ")
+
+# inter change the index values or swaping the positions
+l=[1,2,3,4]
+c="temp"
+# for i in range(len(l)):
+temp=l[0]
+l[0]=l[-1]
+l[-1]=temp
+print(l)
+without using temp:
+l = [1, 2, 3, 4]
+
+# Swap the first and last elements
+l[0], l[-1] = l[-1], l[0]
+
+print(l)
+
+maximum nuber and greater numberr
+
+n = input("Enter num1 and num2 separated by a space: ")
+
+# Split the input string into two parts and convert them to integers
+num1, num2 = map(int, n.split())
+
+# Compare the two numbers and print the larger one
+if num1 > num2:
+    print("num1 is greater:", num1)
+else:
+    print("num2 is greater:", num2)
+
+
+
+reverse the code:
+
+l = [1, 2, 3, 4, 5]
+l = l[::-1]
+print(l)
+
+copy the list:
+
+L1=[1,3,5,6,89,9]
+print("original list:",L1)
+L2=L1
+print("copy list:",L2)
+
+

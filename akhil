@@ -96,4 +96,12 @@ print("original list:",L1)
 L2=L1
 print("copy list:",L2)
 
+####
+Python Program to find sum and average of List in Python
+
+l = [1, 2, 4, 4]
+total_sum = sum(l)
+avg = total_sum / len(l)
+print("Sum:", total_sum)
+print("Average:", avg)
 
